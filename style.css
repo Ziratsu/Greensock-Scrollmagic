@@ -1,0 +1,84 @@
+#animate1 {
+margin-top: 700px;
+width: 1500px;
+height: 450px;
+background: pink;
+display: flex;
+margin: 700px auto 0;
+}
+#animate2 {
+    width: 1500px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    background: rgb(226, 65, 92);
+}
+
+body {
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    overflow-x: hidden;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-family: Gugi;
+    font-size: 150px;
+    margin: 0;
+}
+.box {
+    width: 50%;
+    height: 450px;
+
+}
+#ree {
+    position: relative;
+    right: 100px;
+}
+
+#bal {
+    width: 110%;
+    position: relative;
+    bottom: 100px;
+    
+    margin-left: -100px;
+}
+
+#reeTitle {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.listeRee{
+    font-size: 20px;
+    list-style: none;
+    margin-left: -40px;
+    font-family: 'Gugi';
+}
+.reeLi {
+    margin-top: 10px;
+}
+hr {
+    width: 280px;
+    height: 2px;
+    background: #000;
+    position: relative;
+   margin-left: 0px;
+   border:none;
+}
+.btn {
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.1s;
+    font-size: 15px;
+}
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
